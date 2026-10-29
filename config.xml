@@ -21,8 +21,8 @@
        path, movement speed, frame width/height -->
 	<entitymanager>
 		<player>
-			<texture path="Assets/Textures/irelia.png"/>
-			<animations tsx="Assets/Textures/irelia_spriteshet.tsx"/>
+			<texture path="Assets/Textures/irelia_lonia.png"/>
+			<animations tsx="Assets/Textures/irelia_lonia_spritesheet.tsx."/>
 			<movement speed="4.0"/>
 			<frame width="64" height="64"/>
 			<audiofx path="Assets/Audio/Fx/coin-collision-sound-342335.wav"/>
