@@ -37,7 +37,7 @@ bool Player::Start()
 	texH = parameters.child("frame").attribute("height").as_int();
 
 	// L10: TODO 5: Load this entity's animations from a TSX and set the current animation to "idle".
-	anims.LoadFromTSX(parameters.child("animations").attribute("tsx").as_string(), { {0, "idle"}, {11, "move"}, {22, "jump"} });
+	anims.LoadFromTSX(parameters.child("animations").attribute("tsx").as_string(), { {0, "idle"}, {8, "move"}, {34, "jump"} });
 	anims.SetCurrent("idle");
 
 	// Initialize audio effect
